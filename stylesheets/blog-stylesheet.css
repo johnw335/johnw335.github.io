@@ -1,0 +1,35 @@
+html {
+  background-color: #FFFFFF;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  border-bottom: 3px solid gray;
+  font-size: 3em;
+}
+#title {
+  font-size: 18pt;
+  font-family: sans-serif;
+}
+#text {
+  margin-top: 30px;
+  margin-left: 300px;
+  padding-right: 150px;
+  font-family: sans-serif;
+  background-color: #FFFFFF;
+  margin-right: 150px;
+
+}
+#date {
+  font-family: sans-serif;
+}
+#image {
+  width: 250px;
+  height: 250px;
+  margin-top: -250px;
+  padding-left: 25px;
+}
+body {
+  border-right: 3px solid gray;
+  margin-right: 150px;
+}
