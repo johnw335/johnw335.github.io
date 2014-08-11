@@ -1,27 +1,35 @@
 html {
-  background-color: #FFFFFF;
+  background-color: #D9D8CE;
 }
 h1 {
   text-align: center;
-  font-family: sans-serif;
-  border-bottom: 3px solid gray;
-  font-size: 3em;
+  font-family: courier;
+  border-bottom: 6px solid gray;
+  font-size: 5em;
+  padding-bottom: 75px;
+  padding-top: 25px;
+  color: #68697A;
+  text-decoration: underline;
 }
 #title {
   font-size: 18pt;
-  font-family: sans-serif;
+  font-family: courier;
+  color: #68697A;
 }
 #text {
   margin-top: 30px;
   margin-left: 300px;
   padding-right: 150px;
-  font-family: sans-serif;
-  background-color: #FFFFFF;
+  font-family: courier;
+  background-color: #D9D8CE;
   margin-right: 150px;
+  height: 500px;
+  color: #68697A;
 
 }
 #date {
-  font-family: sans-serif;
+  font-family: courier;
+  color: #68697A;
 }
 #image {
   width: 250px;
@@ -30,6 +38,14 @@ h1 {
   padding-left: 25px;
 }
 body {
-  border-right: 3px solid gray;
-  margin-right: 150px;
+  border-right: 6px solid gray;
+  margin-right: 250px;
 }
+.button-list {
+  height: 25px;
+  width: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: courier;
+  color: #68697A;
+  margin-left: 565px;
