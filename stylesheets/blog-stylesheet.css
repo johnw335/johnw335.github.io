@@ -32,14 +32,13 @@ h1 {
   color: #68697A;
 }
 #image {
-  width: 250px;
-  height: 250px;
-  margin-top: -250px;
+  margin-top: -500px;
   padding-left: 25px;
 }
 body {
   border-right: 6px solid gray;
   margin-right: 250px;
+  background-color: #D9D8CE;
 }
 .button-list {
   height: 25px;
