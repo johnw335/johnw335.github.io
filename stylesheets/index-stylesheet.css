@@ -1,0 +1,121 @@
+.main {
+  border: 20px solid white;
+  margin-top: 20%;
+  height: 60%;
+  width: 90%;
+  background-color: gray;
+  position: relative;
+  border-radius: 40px;
+  font-family: Courier;
+  margin-right: 2%;
+  margin-left: 2%;
+  opacity: .9;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+nav {
+  position: relative;
+  width: 35%;
+  font-size: 2.8em;
+  margin-left: 60%;
+  padding-bottom: 2%;
+  margin-top: -37%;
+  height: 60%;
+  border: 5px solid white;
+  border-radius: 40px;
+}
+links {
+  margin-left: 70%;
+  margin-top: 80%;
+}
+body {
+  background-image:url("http://2.bp.blogspot.com/_SaXtqCEn_I4/TGB3D0zoukI/AAAAAAAAB_c/29y8pwdw0q4/s1600/sugaronastick:%250A%250Amobaby:%250A%250Akobako:ilovefacialhair:szakall:eatsleepdraw.jpeg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 90%;
+  height: 100%;
+}
+.profile {
+  margin: 1%;
+  position: relative;
+  border-radius: 40px;
+  height: 90%;
+  border: 1px solid black;
+  margin-bottom: 3%;
+  width: 50%;
+
+}
+
+html{
+  height: 100%;
+}
+.links {
+  margin-left: 65%;
+  margin-bottom: 30%;
+  position: relative;
+  margin-top: -7%;
+  font-size: 2em;
+}
+.fb {
+  width: 10%;
+}
+.twitter {
+  width: 10%;
+}
+.linked {
+  width: 10%;
+}
+.github {
+  width:10%;
+}
+.about{
+  color: black;
+  font-family: Courier;
+  text-align: center;
+  border: 3px solid black;
+  background-color: gray;
+  border-radius: 40px;
+  opacity: .9;
+  margin: 2.5%;
+  box-shadow: 10px 10px 5px #888888;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color:red;
+}
+ul {
+  list-style-type: none;
+}
+.contact{
+  border: 3px solid black;
+  background-color: gray;
+  border-radius: 40px;
+  opacity: .9;
+  margin: 2.5%;
+  margin-top: 35%;
+  font-family: Courier;
+  box-shadow: 10px 10px 5px #888888;
+}
+.contact-info {
+  display: inline;
+  text-align: center;
+  color: black;
+
+}
+#bold {
+  font-size: 3em;
+}
+
+nav ul{
+  font-size: 90%;
+}
+@media (max-width: 1000px) {
+  nav {
+    font-size: 1.9em;
+    height: 60%;
+    top: -80px;
+  }
+}
