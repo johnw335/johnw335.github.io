@@ -21,6 +21,7 @@ a {
 }
 a:hover {
   color: red;
+  text-decoration: bold;
 }
 .profile {
   border-radius: 50%;
@@ -58,6 +59,8 @@ a:hover {
   font-family: courier;
   text-align: center;
   margin-top: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .contact {
@@ -76,6 +79,8 @@ a:hover {
   color: white;
   margin-top: 500px;
   text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .blog_list {
