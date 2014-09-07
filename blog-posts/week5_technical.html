@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Template</title>
+    <link type="text/css" rel="stylesheet" href="http://johnw335.github.io/stylesheets/blog-stylesheet.css"/>
+  </head>
+  <body>
+    <h1>John's DBC Blog</h1>
+    <div id="title">How To Use Ruby Classes</div>
+    <div id="date">September 7th, 2014</div>
+    <div id="text">
+      <p>
+        Creating a class in Ruby allows you to create instances of specific objects. When I look at that sentence
+        I get a little condused (even though I just wrote it). Let's try to break that down with an example.
+      </p>
+      <p>
+        <img src="http://www.ibm.com/developerworks/library/os-eclipse-rdt/fig02.jpg"/>
+      </p>
+      <p>
+        Ok, this example is a little complex so we won't go through every piece of it. However, we can use this to see how classes work.
+      </p>
+      <p>
+        We create a class "Employee" by simply writing Class Employee. Next we initalize the inputs we want to use with the @ symbol. This make them instance
+        variables and usable throughout the entire class. Without the @ symbol they would be local variables and only usable within the method they are called.
+      </p>
+      <p>
+        After this we create the methods we want to run within the Class. Let's look at def to_s. to_s will use the variables given and create a sentence.
+      </p>
+      <p>
+        We can call this by typing.
+      </p>
+      <p>new_employee = Employee.new("John", 40000, 2009) </p>
+      <p>puts new_employee.to_s</p>
+      <p>This will return, "Name is John, salary is 40000, hire year is 2009.</p>
+      <p> The class allows us to create as many new employees as we need that can all be distinguished by their atributes.</p>
+      <p>I hope this was a clear explanation of Ruby Classes and their importance.</p>
+      <p>Thanks!</p>
+      <p>John</p>
+
+
+    </div>
+    <div id="image"><img src=""/></div>
+    <!-- <div class="button-list">
+      <span class="button-list"><a href="https://github.com/johnw335/johnw335.github.io/blob/master/index.html">Home!</a>
+    </div> -->
+
+  </body>
+
+
+
+
+
+
+
+</html>
