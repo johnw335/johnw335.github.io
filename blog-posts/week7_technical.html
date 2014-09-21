@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Template</title>
+    <link type="text/css" rel="stylesheet" href="http://johnw335.github.io/stylesheets/blog-stylesheet.css"/>
+  </head>
+  <body>
+    <h1>John's DBC Blog</h1>
+    <div id="title">Avoiding SQL Injections</div>
+    <div id="date">September 21st, 2014</div>
+    <div id="text">
+      <p>To begin, SQL injections are a malicious way of tampering with Databases.</p>
+      <p>An SQL injection can gain access to private information or even destroy a table.</p>
+      <p>The 'or 1=1' approach seems to be one of the most common. If the SQL statement is looking for something to equal 'true' before more information is accessed then adding 'or 1=1' can trick the program. Here is an example,</p>
+      <p>User ID: John or 1=1</p>
+      <p>If you enter John or 1=1 into a user id input then it could read it like this,</p>
+      <p>SELECT * FROM Users WHERE UserId = 105 or 1=1</p>
+      <p>As you can see, no matter what is written before the 'or 1=1', the statement will always be true. This could leave private information open for anyone to see.</p>
+      <p>Another SQL injection method is based on Batched SQL statements.</p>
+      <p>This method takes advantage of the fact that SQL separates statements with a ';'. So, if there is a space for user id input and you type,</p>
+      <p>"John; DROP TABLE Accounts"</p>
+      <p>Then, the program could read that as two separate statements and take John as the user ID and then Delete the Accounts table.</p>
+      <p>OK, so what can we do about this?</p>
+      <p>There are a few approaches we could take, but the best method is to use parameters.</p>
+      <p>From what I have read, it looks like SQL parameters are used by representing the user id as a specific symbol such as '@sql'. This way, the only code that will be run is the symbol that is given, so no actual user input will be used.</p>
+      <p>This really looks to be the only approach that people agree is effective, but I still couldn't find as much information on the topic as I would have thought. I hope that I was able to understand SQL injections and correctly explain their danger.</p>
+      <p>See you next time!</p>
+
+    </div>
+    <div id="image"><img src="https://haririhost.files.wordpress.com/2012/03/sql_injection.gif"/></div>
+    <!-- <div class="button-list">
+      <span class="button-list"><a href="https://github.com/johnw335/johnw335.github.io/blob/master/index.html">Home!</a>
+    </div> -->
+
+  </body>
+
+</html>
