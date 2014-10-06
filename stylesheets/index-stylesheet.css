@@ -1,20 +1,82 @@
 body{
+  background-color: black;
+}
+
+.top_img {
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+
+}
+
+.mid_break {
+  background-color: #ff7a20;
+  height: 100px;
+  width: 100%;
   font-family: courier;
-  background-image:url("http://th00.deviantart.net/fs70/PRE/f/2013/174/3/e/recycled_texture_background_by_sandeep_m-d6aeau9.jpg");
-  background-attachment: fixed;
-  background-size: 100%;
-}
-nav {
+  font-size: 4em;
   text-align: center;
+  opacity: .7;
+  margin-top: -67px;
+}
+.profile_box {
+  background-color: #17BD8B;
+
+}
+.profile {
+  height: 400px;
+  width: auto;
+  margin-top: 7%;
+  margin-bottom: 15%;
+  border: 20px solid black;
+  margin-left: 5%;
+}
+
+.profile_text {
+  width: 30%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 7%;
+  background-color: #00A573;
   font-size: 1.4em;
-  padding: 2%;
+  font-family: helvetica;
+  padding: 1%;
+
 }
-li {
-  display: inline;
-  list-style-type: none;
-  margin: 2%;
-  color:white;
+
+.blog_break {
+  background-color: #ff7a20;
+  height: 100px;
+  width: 100%;
+  font-family: courier;
+  font-size: 4em;
+  text-align: center;
+  opacity: .7;
+  margin-top: -65px;
 }
+
+.blog_box {
+  background-color: #485FAA;
+  height: 700px;
+  margin-top: -27px;
+
+}
+.blog_list {
+  list-style: none;
+  margin-left: 10%;
+  padding-top: 20%;
+  font-size: 1.7em;
+  font-family: helvetica;
+
+}
+.navigation {
+  font: helvetica;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -23,68 +85,58 @@ a:hover {
   color: red;
   text-decoration: bold;
 }
-.profile {
-  border-radius: 50%;
-  height: 300px;
-  width: auto;
-  margin-left: 35%;
-  margin-top: 20%;
-  padding: 10px;
-  border: 3px solid white;
 
+.contact_break {
+  background-color: #ff7a20;
+  height: 100px;
+  width: 100%;
+  font-family: courier;
+  font-size: 4em;
+  text-align: center;
+  opacity: .7;
+  margin-top: -65px;
 }
-.links {
-  display: block;
-  width: 20px;
-  float: right;
-  margin-right: 5%;
-  margin-top: 25%;
 
+.contact_box {
+  height: 700px;
+  background-color: #C46CF4;
+  margin-top: -24px;
+}
+
+.contact-info {
+  color: black;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.4em;
+  padding-top: 3%;
+  border-bottom: 2px solid black;
+}
+
+.contact-info li {
+  display: inline;
+  padding: 1%;
+  font-family: courier;
+  text-align: center;
 }
 
 .fb {
-  width: 200%;
+  width: 13%;
 }
 .twitter {
-  width: 200%;
+  width: 13%;
 }
 .linked {
-  width: 200%;
+  width: 13%;
 }
 .github {
-  width:200%;
-}
-.about {
-  color: white;
-  font-family: courier;
-  text-align: center;
-  margin-top: 500px;
-  margin-left: 10%;
-  margin-right: 10%;
+  width:13%;
 }
 
-.contact {
-  color: white;
-  font-family: courier;
+.links {
   text-align: center;
-  margin-top: 400px;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-#bold {
-  font-size: 2em;
-}
-
-.blog_posts {
-  color: white;
-  margin-top: 500px;
-  text-align: center;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-.blog_list {
-  position: relative;
-  right: 20px;
-  display: block;
+  margin-top: 15%;
+  border: 5px solid black;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 30px;
 }
