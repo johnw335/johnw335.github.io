@@ -1,60 +1,107 @@
+
 <!DOCTYPE html>
+
 <html>
   <head>
-    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<!--     <link type="text/css" rel="stylesheet" href="http://johnw335.github.io/stylesheets/index_test_stylesheet.css"/> -->
     <link type="text/css" rel="stylesheet" href="http://johnw335.github.io/stylesheets/index-stylesheet.css"/>
+    <link rel="stylesheet" href="bootstrap_stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
   </head>
-  <body>
-    <header>
-    </header>
-    <div class="top_break">
-      <p class="navigation">
-      <a href= "http://johnw335.github.io/index.html">Home ||</a><a href="#about-me">  About Me ||</a><a href="#my_blog_posts">  DBC Blog ||</a>  Resume ||<a href= "#contact-me">  Contact</a>
-      </p>
-    </div>
-    <div class="top_img_box">
-     <a href="http://imgur.com/XUZ8uNc"><img class="top_img" src="http://imgur.com/XUZ8uNc.jpg"/></a>
-    </div>
-    <div class="mid_break" > <a name="about-me"></a>
-      <p> ABOUT ME </p>
-    </div>
-    <div class="profile_box">
-      <img class="profile" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/t1.0-9/260366_10200440613710499_608813110_n.jpg">
-      <div class="profile_text">
-        <p>
-           Hey this is the about me text. Put me somewhere cool please! Blah blah blah text text text.Hey this is the about me text. Put me somewhere cool please! Blah blah blah text text text.Hey this is the about me text. Put me somewhere cool please! Blah blah blah text text text.Hey this is the about me text. Put me somewhere cool please! Blah blah blah text text text.Hey this is the about me text. Put me somewhere cool please! Blah blah blah text text text.vvHey this is the about me text. Put me somewhere cool please! Blah blah blah text text text.Hey this is the about me text. Put me somewhere cool please! Blah blah blah text text text.vHey this is the about me text. Put me somewhere cool please! Blah blah blah text text text.
-        </p>
-      </div>
-    </div>
-    <div class="blog_break"> <a name="my_blog_posts"></a>
-      <p>BLOG POSTS</p>
-    </div>
-    <div class="blog_box">
-        <ul class="blog_list">
-          <li><a href="http://johnw335.github.io/blog-posts/c1-chefs-kitchen.html">Chef's Kitchen</a></li>
-          <li><a href="http://johnw335.github.io/blog-posts/t1-compare-websites.html">My Favorite Sites</a></li>
-          <li><a href="http://johnw335.github.io/blog-posts/week2_technical.html">Margin, Border, Padding... What's the difference?</a></li>
-          <li><a href="http://johnw335.github.io/blog-posts/week3_technical.html">What's so great about JavaScript</a></li>
-          <li><a href="http://johnw335.github.io/blog-posts/week3_cultural.html">Thinking Styles</a></li>
-          <li><a href="http://johnw335.github.io/GPS/gps1.1.html">GPS1.1</a></li>
-        </ul>
-    </div>
-    <div class="contact_break"> <a name="contact-me"></a>
-      <p>CONTACT</p>
-    </div>
-    <div class="contact_box">
-      <ul class="contact-info">
-        <li>Phone: 205-383-9878</li>
-        <li>Email:<a href="mailto:jww335@gmail.com"> jww335@gmail.com</a></li>
-        <li>3835 South Cove Drive, Birmingham, Al, 35213</li>
-      </ul>
-      <div class="links">
-        <a href="https://www.facebook.com/john.williams.9404"><img class="fb" src="http://files.softicons.com/download/social-media-icons/simple-icons-by-dan-leech/png/256x256/facebook.png"></a>
-        <a href="https://twitter.com/jww335"><img class="twitter" src="http://www.engr.sjsu.edu/fayad/img/icons/twitter_newbird_boxed_whiteonblue.png"></a>
-        <a href="https://www.linkedin.com/profile/view?id=211112680&trk=nav_responsive_tab_profile"><img class="linked" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQVYLYnZ5c6Dr-xX7FI2O8P89oK-Axwk82XzlZ1gC6qJ1Znqdv_"</a>
-        <a href="https://github.com/johnw335"><img class="github" src="http://files.softicons.com/download/social-media-icons/simple-icons-by-dan-leech/ico/github.ico"</a>
-      </div>
-    </div>
 
-  <body>
+    <nav class="navbar navbar-inverse" role="navigation" id="nav_top">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li id="projects_button"><a href="#projects">Projects</a></li>
+            <li id="resume_button"><a href="#">Resume</a></li>
+            <li id="contact_button"><a href="#contact">Contact</a></li>
+            </li>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+  <div class="container-fluid" id="background">
+      <div class="row">
+        <div class="col-sm-12" id="image">
+          <img class="top_img" src="http://imgur.com/XUZ8uNc.jpg"/>
+          <div class="row">
+            <div class="col-xs-12" id="picture_text">
+              <p id="name">
+                JOHN WILLIAMS - WEB DEVELOPER
+                <hr>
+                <p>
+                  <a href="https://www.facebook.com/john.williams.9404"><img class="icons" src="http://www.iconsdb.com/icons/preview/white/facebook-3-xxl.png"></a>
+                  <a href="https://twitter.com/jww335"><img class="icons" src="http://www.iconsdb.com/icons/preview/white/twitter-4-xxl.png"></a>
+                  <a href="https://www.linkedin.com/in/johnw335/"><img class="icons" src="http://www.iconsdb.com/icons/preview/white/linkedin-6-xxl.png"></a>
+                 <a href="https://github.com/johnw335"><img class="icons" src="http://www.iconsdb.com/icons/preview/white/github-11-xxl.png"></a>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="profile_section">
+        <div class="col-sm-4" id="profile_pic">
+          <img src="http://i.imgur.com/4Wf7RJt.jpg" class="img-responsive" alt="Responsive image" id="profile_pic">
+        </div>
+
+        <div class="col-sm-8" id="bio_text">
+          Vis ea vidisse delicata, te eius utinam eam, sit ex volumus placerat. Fugit aliquip delectus eam ex, mei facilis perfecto prodesset et. Dicta tritani posidonium id duo. Ut duo clita tacimates nominati.
+
+          Sed ex iriure hendrerit percipitur, dicta timeam quaestio vel et. Audire prodesset ea vel, ei modus impetus abhorreant quo. Iisque vituperata interesset an mei, ius homero impetus electram no. Iudico putant accusam nec ex, cu eirmod euripidis mea, et mei cibo ludus reprimique.
+
+          Vis ea vidisse delicata, te eius utinam eam, sit ex volumus placerat. Fugit aliquip delectus eam ex, mei facilis perfecto prodesset et. Dicta tritani posidonium id duo. Ut duo clita tacimates nominati.
+
+          Sed ex iriure hendrerit percipitur, dicta timeam quaestio vel et. Audire prodesset ea vel, ei modus impetus abhorreant quo. Iisque vituperata interesset an mei, ius homero impetus electram no. Iudico putant accusam nec ex, cu eirmod euripidis mea, et mei cibo ludus reprimique.
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12" id="projects">
+          <h1>Projects</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" id="project_title">
+          <h2>Missing Label</h2>
+        </div>
+        <div class="col-sm-9" id="project_info">
+          Vis ea vidisse delicata, te eius utinam eam, sit ex volumus placerat. Fugit aliquip delectus eam ex, mei facilis perfecto prodesset et. Dicta tritani posidonium id duo. Ut duo clita tacimates nominati.
+          Sed ex iriure hendrerit percipitur, dicta timeam quaestio vel et. Audire prodesset ea vel, ei modus impetus abhorreant quo. Iisque vituperata interesset an mei, ius homero impetus electram no. Iudico putant accusam nec ex, cu eirmod euripidis mea, et mei cibo ludus reprimique.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" id="project_title_two">
+          <h2>DBC Reddit</h2>
+        </div>
+        <div class="col-sm-9" id="project_info_two">
+          Sed ex iriure hendrerit percipitur, dicta timeam quaestio vel et. Audire prodesset ea vel, ei modus impetus abhorreant quo. Iisque vituperata interesset an mei, ius homero impetus electram no. Iudico putant accusam nec ex, cu eirmod euripidis mea, et mei cibo ludus reprimique.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12" id="contact">
+          <h1>Contact</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12" id="contact_info">
+          <P>
+            Email: <a href="mailto:jww335@gmail.com">jww335@gmail.com</a> - Phone: 205.383.9878 - Address: 3835 South Cove Drive, Birmingham, Al, 35213
+          </p>
+        </div>
+      </div>
+  </div>
+
+
 </html>

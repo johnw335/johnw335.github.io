@@ -1,142 +1,112 @@
-body{
+
+#navbar-default {
+  padding: 0;
+}
+
+
+.top_img {
+/*  width: 205%;*/
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+#name {
+  font-size: 2em;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-family: "Courier New";
+}
+
+#picture_text {
+  color: white;
+  text-align: center;
+  margin-top: -30%;
+}
+
+#background {
   background-color: black;
 }
 
-.top_img {
-  width: 100%;
-  height: auto;
-  margin-top: 150px;
-
+#profile_section {
+  border-top: 5px solid #D1D0CF;
 }
 
-.mid_break {
-  background-color: #ff7a20;
-  height: 100px;
-  width: 100%;
-  font-family: courier;
-  font-size: 4em;
+#nav_top {
+  margin-bottom: 0;
+}
+
+#profile_pic {
+  height: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+#bio_text {
+  padding-top: 10%;
+  color: #D1D0CF;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.icons {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.icons:hover {
+  background-color: #E8713F;
+}
+
+#projects {
+  border-top: 5px solid #D1D0CF;
   text-align: center;
-  opacity: .7;
-  margin-top: -67px;
-}
-.profile_box {
-  background-color: #17BD8B;
-
-}
-.profile {
-  height: 400px;
-  width: auto;
-  margin-top: 7%;
-  margin-bottom: 15%;
-  border: 20px solid black;
-  margin-left: 5%;
+  margin-top: 75px;
+  color: #D1D0CF;
 }
 
-.profile_text {
-  width: 30%;
-  float: right;
-  margin-right: 5%;
-  margin-top: 7%;
-  background-color: #00A573;
-  font-size: 1.4em;
-  font-family: helvetica;
-  padding: 1%;
-
+#project_title {
+  color: #D1D0CF;
+  padding-top: 5%;
+  padding-left: 5%
 }
 
-.blog_break {
-  background-color: #ff7a20;
-  height: 100px;
-  width: 100%;
-  font-family: courier;
-  font-size: 4em;
+#project_info {
+  color: #D1D0CF;
+  padding-top: 5%;
+  padding-right: 10%
+}
+
+#project_title_two {
+  color: #D1D0CF;
+  padding-top: 5%;
+  padding-left: 5%
+}
+
+#project_info_two {
+  color: #D1D0CF;
+  padding-top: 5%;
+  padding-right: 10%
+}
+
+#contact {
+  margin-top: 10%;
+  color: #D1D0CF;
   text-align: center;
-  opacity: .7;
-  margin-top: -65px;
+  border-top: 5px solid #D1D0CF;
 }
 
-.blog_box {
-  background-color: #485FAA;
-  height: 700px;
-  margin-top: -27px;
-
-}
-.blog_list {
-  list-style: none;
-  margin-left: 10%;
-  padding-top: 20%;
-  font-size: 1.7em;
-  font-family: helvetica;
-
-}
-.navigation {
-  font: helvetica;
-  font-size: 2em;
-  color: white;
+#contact_info {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #D1D0CF;
   text-align: center;
-
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  text-decoration: bold;
-}
-
-.contact_break {
-  background-color: #ff7a20;
-  height: 100px;
-  width: 100%;
-  font-family: courier;
-  font-size: 4em;
-  text-align: center;
-  opacity: .7;
-  margin-top: -65px;
-}
-
-.contact_box {
-  height: 700px;
-  background-color: #C46CF4;
-  margin-top: -24px;
-}
-
-.contact-info {
-  color: black;
-  list-style-type: none;
-  text-align: center;
-  font-size: 1.4em;
-  padding-top: 3%;
-  border-bottom: 2px solid black;
-}
-
-.contact-info li {
-  display: inline;
-  padding: 1%;
-  font-family: courier;
-  text-align: center;
-}
-
-.fb {
-  width: 13%;
-}
-.twitter {
-  width: 13%;
-}
-.linked {
-  width: 13%;
-}
-.github {
-  width:13%;
-}
-
-.links {
-  text-align: center;
-  margin-top: 15%;
-  border: 5px solid black;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding: 30px;
 }
