@@ -56,13 +56,28 @@ hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 35%;
+    margin-right: 35%;
     border-style: inset;
     border-width: 1px;
 }
 
 .icons {
   height: 50px;
-  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.icons:hover {
+  background-color: #E8713F;
+}
+
+#projects {
+  border-top: 5px solid white;
+  text-align: center;
+  margin-top: 75px;
+  color: white;
+}
+
+#projects_info {
+  color: white;
 }
