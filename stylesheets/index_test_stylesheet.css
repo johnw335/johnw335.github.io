@@ -5,19 +5,31 @@
 
 
 .top_img {
-  width: 205%;
+/*  width: 205%;*/
+  width: 100%;
   height: auto;
   padding: 0;
+}
+
+#name {
+  font-size: 2em;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-family: "Courier New";
 }
 
 #picture_text {
   color: white;
   text-align: center;
-  margin-top: -300px;
+  margin-top: -30%;
 }
 
 #background {
   background-color: black;
+}
+
+#profile_section {
+  border-top: 5px solid white;
 }
 
 #nav_top {
@@ -38,4 +50,19 @@
 #contact {
   color: white;
   text-align: center;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.icons {
+  height: 50px;
+  padding-right: 10px;
 }
