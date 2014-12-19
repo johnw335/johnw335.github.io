@@ -29,7 +29,7 @@
 }
 
 #profile_section {
-  border-top: 5px solid white;
+  border-top: 5px solid #D1D0CF;
 }
 
 #nav_top {
@@ -44,12 +44,7 @@
 
 #bio_text {
   padding-top: 10%;
-  color: white;
-}
-
-#contact {
-  color: white;
-  text-align: center;
+  color: #D1D0CF;
 }
 
 hr {
@@ -72,12 +67,46 @@ hr {
 }
 
 #projects {
-  border-top: 5px solid white;
+  border-top: 5px solid #D1D0CF;
   text-align: center;
   margin-top: 75px;
-  color: white;
+  color: #D1D0CF;
 }
 
-#projects_info {
-  color: white;
+#project_title {
+  color: #D1D0CF;
+  padding-top: 5%;
+  padding-left: 5%
+}
+
+#project_info {
+  color: #D1D0CF;
+  padding-top: 5%;
+  padding-right: 10%
+}
+
+#project_title_two {
+  color: #D1D0CF;
+  padding-top: 5%;
+  padding-left: 5%
+}
+
+#project_info_two {
+  color: #D1D0CF;
+  padding-top: 5%;
+  padding-right: 10%
+}
+
+#contact {
+  margin-top: 10%;
+  color: #D1D0CF;
+  text-align: center;
+  border-top: 5px solid #D1D0CF;
+}
+
+#contact_info {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #D1D0CF;
+  text-align: center;
 }
